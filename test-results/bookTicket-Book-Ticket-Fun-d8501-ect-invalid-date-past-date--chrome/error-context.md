@@ -1,0 +1,130 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img "Safe Railway" [ref=e5]
+        - strong [ref=e7]: Welcome baonhi@gmail.com
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: ../
+        - listitem [ref=e12]:
+          - link "FAQ" [ref=e13] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e14]:
+          - link "Contact" [ref=e15] [cursor=pointer]:
+            - /url: /Page/Contact.cshtml
+        - listitem [ref=e16]:
+          - link "Timetable" [ref=e17] [cursor=pointer]:
+            - /url: TrainTimeListPage.cshtml
+        - listitem [ref=e18]:
+          - link "Ticket price" [ref=e19] [cursor=pointer]:
+            - /url: /Page/TrainPriceListPage.cshtml
+        - listitem [ref=e20]:
+          - link "Book ticket" [ref=e21] [cursor=pointer]:
+            - /url: /Page/BookTicketPage.cshtml
+        - listitem [ref=e22]:
+          - link "My ticket" [ref=e23] [cursor=pointer]:
+            - /url: /Page/ManageTicket.cshtml
+        - listitem [ref=e24]:
+          - link "Change password" [ref=e25] [cursor=pointer]:
+            - /url: /Account/ChangePassword.cshtml
+        - listitem [ref=e26]:
+          - link "Log out" [ref=e27] [cursor=pointer]:
+            - /url: /Account/Logout
+    - generic [ref=e28]:
+      - heading "Book ticket" [level=1] [ref=e29]
+      - generic [ref=e30]:
+        - list [ref=e31]:
+          - listitem [ref=e32]: Use the form below to book your ticket.
+          - listitem [ref=e33]: We only have ticket for 3-30 days ahead. Please come to the station to buy ticket if you need to depart within 2 days.
+          - listitem [ref=e34]: One person can book no more than 10 tickets to prevent black market sales.
+        - paragraph [ref=e35]: There're errors in the form. Please correct the errors and try again.
+        - group "Book ticket form" [ref=e37]:
+          - generic [ref=e38]: Book ticket form
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - generic [ref=e41]: "Depart date:"
+              - combobox [ref=e42]:
+                - option "12/27/2025" [selected]
+                - option "12/28/2025"
+                - option "12/29/2025"
+                - option "12/30/2025"
+                - option "12/31/2025"
+                - option "1/1/2026"
+                - option "1/2/2026"
+                - option "1/3/2026"
+                - option "1/4/2026"
+                - option "1/5/2026"
+                - option "1/6/2026"
+                - option "1/7/2026"
+                - option "1/8/2026"
+                - option "1/9/2026"
+                - option "1/10/2026"
+                - option "1/11/2026"
+                - option "1/12/2026"
+                - option "1/13/2026"
+                - option "1/14/2026"
+                - option "1/15/2026"
+                - option "1/16/2026"
+                - option "1/17/2026"
+                - option "1/18/2026"
+                - option "1/19/2026"
+                - option "1/20/2026"
+                - option "1/21/2026"
+                - option "1/22/2026"
+            - listitem [ref=e43]:
+              - generic [ref=e44]: "Depart from:"
+              - combobox [ref=e45]:
+                - option "Sài Gòn"
+                - option "Phan Thiết" [selected]
+                - option "Nha Trang"
+                - option "Đà Nẵng"
+                - option "Huế"
+                - option "Quảng Ngãi"
+            - listitem [ref=e46]:
+              - generic [ref=e47]: "Arrive at:"
+              - combobox [ref=e49]:
+                - option "Sài Gòn"
+                - option "Nha Trang" [selected]
+                - option "Đà Nẵng"
+            - listitem [ref=e50]:
+              - generic [ref=e51]: "Seat type:"
+              - combobox [ref=e52]:
+                - option "Hard seat"
+                - option "Soft seat" [selected]
+                - option "Soft seat with air conditioner"
+                - option "Hard bed"
+                - option "Soft bed"
+                - option "Soft bed with air conditioner"
+            - listitem [ref=e53]:
+              - generic [ref=e54]: "Ticket amount:"
+              - combobox [ref=e55]:
+                - option "1" [selected]
+                - option "2"
+                - option "3"
+                - option "4"
+                - option "5"
+                - option "6"
+                - option "7"
+                - option "8"
+                - option "9"
+                - option "10"
+              - text: »You have booked 10 tickets. You can book no more.
+          - button "Book ticket" [ref=e56]
+      - generic [ref=e57]:
+        - separator [ref=e58]
+        - 'heading "©2017 Safe Railway. All rights reserved. Build version: 2.0" [level=5] [ref=e59]':
+          - text: ©2017 Safe Railway. All rights reserved.
+          - text: "Build version: 2.0"
+    - link "Web hosting by Somee.com" [ref=e61] [cursor=pointer]:
+      - /url: http://somee.com
+  - generic [ref=e65]:
+    - link "Hosted Windows Virtual Server. 2.5GHz CPU, 2GB RAM, 60GB SSD. Try it now for $1!" [ref=e67] [cursor=pointer]:
+      - /url: http://somee.com/VirtualServer.aspx
+    - link "Web hosting by Somee.com" [ref=e69] [cursor=pointer]:
+      - /url: http://somee.com
+```

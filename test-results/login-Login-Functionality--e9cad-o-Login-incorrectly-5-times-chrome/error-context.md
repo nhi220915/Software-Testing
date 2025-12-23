@@ -1,0 +1,73 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img "Safe Railway" [ref=e5]
+        - strong [ref=e7]: Welcome guest!
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: ../
+        - listitem [ref=e12]:
+          - link "FAQ" [ref=e13] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e14]:
+          - link "Contact" [ref=e15] [cursor=pointer]:
+            - /url: /Page/Contact.cshtml
+        - listitem [ref=e16]:
+          - link "Timetable" [ref=e17] [cursor=pointer]:
+            - /url: ../Page/TrainTimeListPage.cshtml
+        - listitem [ref=e18]:
+          - link "Ticket price" [ref=e19] [cursor=pointer]:
+            - /url: /Page/TrainPriceListPage.cshtml
+        - listitem [ref=e20]:
+          - link "Book ticket" [ref=e21] [cursor=pointer]:
+            - /url: /Page/BookTicketPage.cshtml
+        - listitem [ref=e22]:
+          - link "Register" [ref=e23] [cursor=pointer]:
+            - /url: /Account/Register.cshtml
+        - listitem [ref=e24]:
+          - link "Login" [ref=e25] [cursor=pointer]:
+            - /url: /Account/Login.cshtml
+    - generic [ref=e26]:
+      - heading "Login Page" [level=1] [ref=e27]
+      - list [ref=e28]:
+        - listitem [ref=e29]: You need to login before you can book ticket. Please enter your username and password below.
+        - listitem [ref=e30]:
+          - text: If you don't have an account, visit the
+          - link "Registration Page" [ref=e31] [cursor=pointer]:
+            - /url: Register.cshtml
+          - text: and create one.
+        - listitem [ref=e32]:
+          - text: If you forgot your password, please visit
+          - link "Forgot Password page" [ref=e33] [cursor=pointer]:
+            - /url: /Account/ForgotPassword.cshtml
+          - text: to recover it.
+      - paragraph [ref=e34]: Invalid username or password. Please try again.
+      - group "Log in to your account" [ref=e36]:
+        - generic [ref=e37]: Log in to your account
+        - list [ref=e38]:
+          - listitem [ref=e39]:
+            - generic [ref=e40]: "Email:"
+            - textbox "Email:" [ref=e41]: baonhi@gmail.com
+          - listitem [ref=e42]:
+            - generic [ref=e43]: "Password:"
+            - textbox "Password:" [ref=e44]
+        - paragraph [ref=e45]:
+          - button "Login" [ref=e46]
+    - generic [ref=e47]:
+      - separator [ref=e48]
+      - 'heading "©2017 Safe Railway. All rights reserved. Build version: 2.0" [level=5] [ref=e49]':
+        - text: ©2017 Safe Railway. All rights reserved.
+        - text: "Build version: 2.0"
+  - link "Web hosting by Somee.com" [ref=e51] [cursor=pointer]:
+    - /url: http://somee.com
+  - generic [ref=e55]:
+    - link "Hosted Windows Virtual Server. 2.5GHz CPU, 2GB RAM, 60GB SSD. Try it now for $1!" [ref=e57] [cursor=pointer]:
+      - /url: http://somee.com/VirtualServer.aspx
+    - link "Web hosting by Somee.com" [ref=e59] [cursor=pointer]:
+      - /url: http://somee.com
+```
